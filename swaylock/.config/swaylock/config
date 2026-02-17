@@ -1,0 +1,47 @@
+# Set the background image and scaling mode
+image=~/Pictures/Wallpapers/hatsunemiku.png
+scaling=fill
+
+# Show a clock and date string
+clock
+timestr=%I:%M %p
+datestr=%a, %B %e
+
+# Show the indicator even when idle
+indicator-idle-visible
+
+# Show the number of failed login attempts
+show-failed-attempts
+
+# Font settings
+font=sans-serif
+font-size=20
+indicator-radius=50
+indicator-thickness=10
+
+# Color settings (hex format: rrggbb[aa])
+
+# Default colors
+inside-color=1f1f28aa
+ring-color=7fb4ca
+line-color=1f1f28
+text-color=dcd7ba
+
+# Colors when verifying (correct password typed so far)
+inside-ver-color=98bb6c
+ring-ver-color=98bb6c
+text-ver-color=dcd7ba
+
+# Colors when wrong (invalid password entered)
+inside-wrong-color=f7768e
+ring-wrong-color=f7768e
+text-wrong-color=dcd7ba
+
+# Colors when cleared (empty input)
+inside-clear-color=1f1f28aa
+ring-clear-color=ffa066
+text-clear-color=ffa066
+
+# Highlight colors
+key-hl-color=ffa066
+bs-hl-color=f7768e
